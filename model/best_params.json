@@ -1,0 +1,18 @@
+{
+  "Logistic Regression": {
+    "C": 5
+  },
+  "Decision Tree": {
+    "max_depth": 5,
+    "min_samples_leaf": 50
+  },
+  "KNN": {
+    "n_neighbors": 31
+  },
+  "Naive Bayes": {
+    "var_smoothing": 0.1
+  },
+  "Support Vector Machine": {
+    "C": 0.5
+  }
+}
