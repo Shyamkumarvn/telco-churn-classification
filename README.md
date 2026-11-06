@@ -19,7 +19,7 @@ Telecom companies lose revenue when customers leave. The goal here is to predict
 ## c. GitHub Repository Link
 https://github.com/Shyamkumarvn/telco-churn-classification
 
-Live app: <PASTE STREAMLIT URL HERE>
+Live app: https://telco-churn-models.streamlit.app
 
 ## d. Models Used
 
