@@ -46,7 +46,7 @@ Tuned settings: LR `C=5`; Decision Tree `max_depth=5, min_samples_leaf=50`; KNN 
 | Naive Bayes | Catches 87% of churners (recall 0.8715) but at the cost of precision (0.4733) and accuracy (0.7087); it predicts churn too often. The independence assumption does not hold for correlated one-hot columns. It suits a use case where missing a churner is far worse than a false alarm. |
 | Support Vector Machine | Highest accuracy (0.8098) and precision (0.7012) but the lowest recall (0.4925), so it is cautious about flagging churn. Its AUC (0.8305) is lower, partly because probabilities come from Platt scaling. |
 
-**Overall winner: Logistic Regression.** It has the best AUC and MCC, accuracy close to the top, and and is a simple, interpretable model. SVM is best if precision matters most, Naive Bayes if recall matters most. The metrics of the top models are close (MCC 0.47-0.48), so differences of about 0.01 should not be over-interpreted on a test set of 1,761 rows.
+**Overall winner: Logistic Regression.** It has the best AUC and MCC, accuracy close to the top, and is a simple, interpretable model. SVM is best if precision matters most, Naive Bayes if recall matters most. The metrics of the top models are close (MCC 0.47-0.48), so differences of about 0.01 should not be over-interpreted on a test set of 1,761 rows.
 
 ## Repository Structure
 ```
